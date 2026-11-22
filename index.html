@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>daomp3.com — lossless music reference (FLAC &amp; MP3)</title>
+<meta name="description" content="A quiet reference site for lossless music: one page per song with streaming preview, timed lyrics, real file details (format, size, average bitrate) and download entries.">
+<style>
+  :root{--ink:#1c1a17;--muted:#6b635c;--line:#e6ded4;--accent:#f0305a;--bg:#faf7f2}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,"Segoe UI","PingFang SC",system-ui,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:64px 24px 96px}
+  h1{font-size:34px;line-height:1.2;margin:0 0 10px;letter-spacing:-.01em}
+  .lead{color:var(--muted);margin:0 0 34px}
+  h2{font-size:19px;margin:38px 0 12px;padding-left:12px;border-left:4px solid var(--accent);color:#d4123a}
+  p{margin:0 0 14px}
+  ul{margin:0 0 18px;padding-left:20px}
+  li{margin:6px 0}
+  a{color:#c02048;text-decoration:none;border-bottom:1px solid rgba(192,32,72,.28)}
+  a:hover{color:var(--accent);border-color:var(--accent)}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0}
+  code{background:#f2ece4;border-radius:4px;padding:1px 6px;font-size:14px}
+  footer{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>daomp3.com — a quieter place to look up lossless music</h1>
+  <p class="lead">One page per song: preview, timed lyrics, honest file details, and where to get the file.</p>
+
+  <div class="card">
+    <p><strong>Main site →</strong> <a href="https://daomp3.com/" rel="noopener">daomp3.com/</a></p>
+    <p style="margin:0">No pop-ups, no installer, no forced sign-up. The site stores no audio files — download entries point to public shares on third-party cloud drives.</p>
+  </div>
+
+  <h2>Three checks that expose a fake FLAC</h2>
+  <p>Most “lossless” downloads are not lossless. These take under a minute:</p>
+  <ul>
+    <li><strong>Do the size math.</strong> A 4-minute track at CD quality is ~25–35 MB; at 24-bit/96 kHz, 60–90 MB; a 320 kbps MP3 is 9–11 MB. An 8 MB “lossless FLAC” of a 4-minute song is an MP3 in a FLAC container.</li>
+    <li><strong>Read the bitrate, not the extension.</strong> Real FLAC reports ~700–1100 kbps at CD quality. A file labelled FLAC that reports 320 or 128 kbps was re-wrapped.</li>
+    <li><strong>Check the spectrum.</strong> Genuine lossless extends past 20 kHz with natural roll-off; a 128 kbps MP3 converted to FLAC cuts hard around 16 kHz.</li>
+  </ul>
+
+  <h2>Where to start on the site</h2>
+  <ul>
+    <li><a href="https://daomp3.com/songs/" rel="noopener">All songs</a> — browsable by artist and album</li>
+    <li><a href="https://daomp3.com/artists/" rel="noopener">All artists</a></li>
+    <li><a href="https://daomp3.com/s/ganaiganzuo-linzixiang/" rel="noopener">Example song page</a> (林子祥《敢愛敢做》)</li>
+    <li><a href="https://daomp3.com/s/aicuo-wanglihong/" rel="noopener">Example song page</a> (王力宏《爱错》)</li>
+    <li><a href="https://daomp3.com/feed.xml" rel="noopener">RSS feed</a> — latest additions</li>
+    <li><a href="https://daomp3.com/about/" rel="noopener">About &amp; copyright</a></li>
+  </ul>
+
+  <h2>Reading posts in other languages</h2>
+  <ul>
+    <li><a href="https://telegra.ph/How-to-Tell-a-Real-FLAC-from-a-Fake-One-Three-Quick-Checks-11-22" rel="noopener">English</a></li>
+    <li><a href="https://telegra.ph/本物のFLACと偽物の見分け方1分でできる3つのチェック-11-22" rel="noopener">日本語</a></li>
+    <li><a href="https://telegra.ph/Cómo-distinguir-un-FLAC-real-de-uno-falso-tres-comprobaciones-rápidas-11-22" rel="noopener">Español</a></li>
+    <li><a href="https://telegra.ph/Echtes-FLAC-von-falschem-unterscheiden-drei-schnelle-Prüfungen-11-22" rel="noopener">Deutsch</a></li>
+  </ul>
+
+  <footer>
+    This page is a static mirror of the site description. Content is informational; the site does not host audio.
+  </footer>
+</div>
+</body>
+</html>
